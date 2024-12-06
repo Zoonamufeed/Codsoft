@@ -1,0 +1,222 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+p{
+    color: #555;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.logo{
+    width: 250px;
+    height: 100px;
+}
+.main {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width:100%;
+    max-width: 100%;
+    padding: 0 20px; 
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 30px;
+    padding :10px;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #048243;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(135, 207, 235, 0.386);
+}
+#about{
+    height: 300px;
+}
+
+.content{
+    display: flex; 
+}
+.one{
+    height: 215px;
+    width:70%;
+    padding:10px;
+}
+.profile{
+    padding: 10px;
+    border-radius: 8px;
+    width:100%;
+    max-width:min-content;
+    margin:0 30px;
+}
+.two{
+    display: flex;
+    height: 215px;
+    width:30%;    
+}
+.bio{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 40px;
+    padding:20px;
+}
+
+#skills{    
+    width: 100%; 
+}
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.scontent{ 
+    height:350px;
+    width:50%; 
+    padding: 10px; 
+}
+.simg{
+    height:350px;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+img{
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.skill-list{
+    display: grid; 
+    grid-template-columns: repeat(2, 550px); 
+    gap:20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #555;
+    padding: 0 40px;
+}
+.proj1{
+    height:auto;
+    display: flex;
+}
+.hospital1{
+    width:70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center;
+    gap: 10px;
+    padding: 10px;   
+}
+.hospital2{
+    width:30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 50px;
+    text-align: justify;
+    padding: 20px;   
+}
+.hosimg{
+    width: 80%;
+    height:auto; 
+}
+figure{
+    flex: 1 1 45% ;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 10px; 
+    margin:0;
+    text-align: center;
+}
+figcaption{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+button{
+    background-color:rgba(135, 207, 235, 0.386);
+    padding:10px 30px;
+    border:none;
+    color: #048243;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #048243;
+    color: white;
+    cursor: pointer;
+}
+.main, .content, .content2, .hospital1, .hospital2, .rone, .contact1, .footer {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.196);
+    background-color:white;
+    border-radius: 8px;
+}
+#resume{
+    width: 50%;
+    padding:5px;
+}
+.rone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    height: 100px;
+}
+
+.contact1{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 20px 20px;
+    color: #555;
+    height: 100px;
+    
+}
+#contact{
+    width: 50%;
+    padding:5px;
+}
+.col{
+    display: flex;
+}
+footer{
+    background-color:white;
+    color: brown;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
